@@ -11,9 +11,9 @@ import java.util.List;
 import com.LMS_Java.model.MD_LC_Request;
 
 public class DAO_LC_Request {
-	private static final String JDBC_URL = "jdbc:mysql://localhost:3306/lms";
-	private static final String JDBC_USER = "root";
-	private static final String JDBC_PASSWORD = "Shakeer@123";
+	private static final String JDBC_URL = "jdbc:mysql://localhost:3306/your_DB_name";
+	private static final String JDBC_USER = "your_DB_user";
+	private static final String JDBC_PASSWORD = "your_DB_password";
 
 	private static int batchCount;
 	private static int studentCount;
